@@ -1,0 +1,7 @@
+<div>
+  <input type="text" [(ngModel)]="inputString" placeholder="Enter a string">
+  <button (click)="sendString()">Send</button>
+</div>
+<div *ngIf="returnedText">
+  <p>Returned Text: {{ returnedText }}</p>
+</div>
